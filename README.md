@@ -245,7 +245,7 @@ Example configuration for db01:
 Server=192.168.56.16
 ServerActive=192.168.56.16
 Hostname=db01
-HostMetadata=vprofile-linux
+HostMetadata=linux
 ```
 
 The same configuration pattern is applied to the other nodes, changing `Hostname` to the corresponding machine name.
@@ -294,7 +294,7 @@ linux Auto Registration
 Configure the condition:
 
 ```text
-Host metadata contains vprofile-linux
+Host metadata contains linux
 ```
 
 Configure the operations:
